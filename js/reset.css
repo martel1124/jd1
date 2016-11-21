@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"宋体","微软雅黑",Arail,Tabhoma;text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;} /*在ie上 a标签包img时，图片会出现边框 */
+input,select,textarea{outline:0;}
+/* 把他的框设为0，只剩一个光标获得焦点的时候会有一个高亮的蓝色边框 */
+textarea{resize:none; overflow: auto;}
+/* 不允许用户改变text的大小 resize  内容超出就设置滚动条不超出就不设置 auto 自动的意思 */
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+
+/*==========================Reset_End===========================*/
